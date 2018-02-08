@@ -1,0 +1,25 @@
+build/
+*/**/build/
+.gradle/
+
+*/**/.idea/
+.idea/
+*.ipr
+*.iml
+*.iws
+*.log
+
+coverage
+
+## Binaries
+bin/
+
+##Vendor
+vendor/*/
+!vendor/vendor.json
+
+## Data
+data/
+
+##Release dir
+release/
